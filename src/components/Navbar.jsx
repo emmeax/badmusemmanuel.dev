@@ -68,12 +68,13 @@ const Navbar = () => {
       <a href="#contact" className="hover:text-gray-400">
         Contact
       </a>
-      <button
-          className="bg-gradient-to-r from-green-400 to-blue-500 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
-          onClick={() => setNavbar(false)}
+      <a href="#contact"
+          className="bg-gradient-to-r from-pink-500 to-yellow-500 text-white
+        transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
+          
         >
           Connect Me
-        </button>
+        </a>
     </div>
     </div>
 
